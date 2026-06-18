@@ -1,10 +1,10 @@
 class Niva < Formula
   desc "Text-based music engraving for jazz and pop lead sheets"
   homepage "https://github.com/nivatune/user"
-  url "https://github.com/nivatune/user/releases/download/v0.3.1/niva-v0.3.1-universal-apple-darwin.tar.gz"
-  sha256 "fb0c633a8aab1d725a76185d72f41dea60cf90c4978e2a19760a4372b1e5efc0"
+  url "https://github.com/nivatune/user/releases/download/v0.4/niva-v0.4-universal-apple-darwin.tar.gz"
+  sha256 "4298a86b1c3ab289f9495eeed9f784e61a36143c69c6bbae177738e19917c140"
   license "MIT"
-  version "0.3.1"
+  version "0.4"
 
   def install
     # Keep the binary and libpdfium.dylib together so the dylib is found beside it.
